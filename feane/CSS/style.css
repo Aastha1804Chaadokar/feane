@@ -1,0 +1,434 @@
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+/* ---- NAVBAR ---- */
+.navbar {
+    background-color: #343a40;
+    padding: 15px 0;
+}
+ 
+.navbar-brand {
+    color:#f8f9fa ;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+ 
+.nav-link {
+    color: white ;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: orange ;
+}
+
+.nav-link.active {
+    color: orange ;
+}
+
+.order-btn {
+    background-color: orange;
+    color: black ;
+    border-radius: 5px;
+    padding: 8px 18px ;
+    font-weight: bold;
+}
+
+.order-btn:hover {
+    background-color: #e69500;
+}
+
+/* ---- PAGE TOP BANNER (for inner pages) ---- */
+.page-top {
+    background-color: #111;
+    padding: 60px 0 30px;
+    text-align: center;
+    border-bottom: 2px solid orange;
+}
+
+.page-top h1 {
+    font-size: 2rem;
+    color: orange;
+}
+
+.page-top p {
+    color: #aaa;
+    margin-top: 5px;
+}
+
+/* ---- HERO SECTION (home page only) ---- */
+.hero {
+    background-image: url('https://themewagon.github.io/feane/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0 80px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 550px;
+}
+
+.box h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.box h1 span {
+    color: rgb(234, 232, 228);
+}
+
+.box p {
+    color: #ccc;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+/* ---- BUTTONS ---- */
+.btn-orange {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-orange:hover {
+    background-color: #e69500;
+    color: black;
+}
+
+.btn-outline {
+    border: 2px solid orange;
+    color: orange;
+    background: transparent;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-outline:hover {
+    background-color: orange;
+    color: black;
+}
+
+/* ---- SECTION HEADING ---- */
+.section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.section-title span {
+    color: orange;
+}
+
+.title-line {
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    margin: 0 auto 30px auto;
+}
+
+/* ---- OFFER CARDS ---- */
+.offer-card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.offer-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.offer-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.offer-text h5 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.offer-text h4 {
+    color: orange;
+    margin: 4px 0 8px;
+}
+
+/* ---- FOOD CARD ---- */
+.food-card {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.food-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.food-card-body {
+    padding: 15px;
+}
+
+.food-card-body h5 {
+    margin-bottom: 6px;
+    font-size: 1rem;
+}
+
+.food-card-body p {
+    color: #aaa;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+
+.food-price {
+    color: orange;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* ---- ABOUT SECTION ---- */
+.about-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.about-text h2 span {
+    color: orange;
+}
+
+.about-text p {
+    color: #ccc;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* ---- BOOK TABLE FORM ---- */
+.form-box {
+    background-color: #2a2a2a;
+    padding: 35px;
+    border-radius: 8px;
+}
+
+.form-box label {
+    color: #ccc;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+    width: 100%;
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.form-box input:focus,
+.form-box select:focus,
+.form-box textarea:focus {
+    outline: none;
+    border-color: orange;
+}
+
+.form-box select option {
+    background: #2a2a2a;
+}
+
+/* ---- TESTIMONIALS ---- */
+.review-card {
+    background-color: #2a2a2a;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.review-card p {
+    color: #ccc;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.review-card h6 {
+    color: orange;
+    margin: 0;
+}
+
+.review-card small {
+    color: #888;
+}
+
+.client-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    object-fit: cover;
+}
+
+/* ---- FOOTER ---- */
+footer {
+    background-color: #111;
+    padding: 50px 0 0;
+    margin-top: 60px;
+}
+
+footer h5 {
+    color: orange;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+footer p,
+footer a {
+    color: #aaa;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    text-decoration: none;
+    display: block;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+.footer-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #333;
+    text-align: center;
+    padding: 18px 0;
+    margin-top: 40px;
+    color: #666;
+    font-size: 0.85rem;
+}
+
+/* ---- LOGIN PAGE ---- */
+.login-page {
+    background-image: url('https://themewagon.github.io/feane/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 15px;
+}
+
+.login-card {
+    background-color: rgba(30, 30, 30, 0.97);
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 40px 35px;
+    width: 100%;
+    max-width: 420px;
+}
+
+.login-card h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+.login-card h2 span {
+    color: orange;
+}
+
+.login-card .sub-text {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.88rem;
+    margin-bottom: 25px;
+}
+
+/* ---- SPACING HELPERS ---- */
+.section-pad {
+    padding: 60px 0;
+}
+
+.bg-dark2 {
+    background-color: #222;
+}
+
+/* ---- SUCCESS MESSAGE ---- */
+.success-box {
+    display: none;
+    background-color: #1a3a1a;
+    border: 1px solid green;
+    color: lightgreen;
+    padding: 12px 18px;
+    border-radius: 5px;
+    margin-top: 12px;
+    font-size: 0.9rem;
+}
